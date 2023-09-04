@@ -52,7 +52,6 @@ if __name__ == "__main__":
         logger.info(f"Create Account: {account} / Password: {params.password}")
         open_window()
         register(account)
-        time.sleep(random.randint(1,3))
         driver.quit()
 
 # python .\main.py --account icsd --password cid28787 --second_password 123456 --mail testmail@gmail.com --amount 5 --start 1
